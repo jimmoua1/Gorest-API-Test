@@ -1,0 +1,8 @@
+utilize "https://www.jsonschema.net/home"
+One of ways to request Body by sending "Schema"
+
+Make sure to put the file in "resources"
+
+🗁 test
+    └─── 🗁 java
+    └─── 🗁 resources (here) | resources must have icon in folder or will not work

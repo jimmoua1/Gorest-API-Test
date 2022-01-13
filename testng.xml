@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/IntelliJ/_Projects">
+        <classes>
+            <class name="Assignments.Gorest_IO.Java.GorestTest_Data">
+                <methods>
+                    <include name="test_API_Token"/>
+                    <include name="test_return_all_Users"/>
+                    <include name="test_API_status_code_200"/>
+                    <include name="test_user_queried"/>
+                    <include name="test_users_queried_page_2"/>
+                    <include name="test_All_Users_Post"/>
+                    <include name="test_Single_User_Post"/>
+                    <include name="test_All_Users_Comment"/>
+                    <include name="test_Single_User_Comment"/>
+                    <include name="test_All_User_ToDo"/>
+                    <include name="test_Single_User_ToDo"/>
+                    <include name="test_Create_User_Account"/>
+                    <include name="test_Create_User_Account_Email_Taken"/>
+                    <include name="test_Create_User_Post"/>
+                    <include name="test_Required_Field_User_Post"/>
+                    <include name="test_Create_User_Comment"/>
+                    <include name="test_Required_Field_User_Comment"/>
+                    <include name="test_Creating_User_ToDo"/>
+                    <include name="test_Required_Field_User_ToDo"/>
+                    <include name="test_Update_User_Account"/>
+                    <include name="test_Delete_User_Account"/>
+                    <include name="test_Delete_Non_Exist_Account"/>
+                </methods>
+            </class>
+            <class name="Assignments.Gorest_IO.Java.GorestTest_HashMap">
+                <methods>
+                    <include name="test_API_Token"/>
+                    <include name="test_return_all_Users"/>
+                    <include name="test_API_status_code_200"/>
+                    <include name="test_user_queried"/>
+                    <include name="test_users_queried_page_2"/>
+                    <include name="test_All_Users_Post"/>
+                    <include name="test_Single_User_Post"/>
+                    <include name="test_All_Users_Comment"/>
+                    <include name="test_Single_User_Comment"/>
+                    <include name="test_All_User_ToDo"/>
+                    <include name="test_Single_User_ToDo"/>
+                    <include name="test_Create_User_Account"/>
+                    <include name="test_Create_User_Account_Email_Taken"/>
+                    <include name="test_Create_User_Post"/>
+                    <include name="test_Required_Field_User_Post"/>
+                    <include name="test_Create_User_Comment"/>
+                    <include name="test_Required_Field_User_Comment"/>
+                    <include name="test_Creating_User_ToDo"/>
+                    <include name="test_Required_Field_User_ToDo"/>
+                    <include name="test_Update_User_Account"/>
+                    <include name="test_Delete_User_Account"/>
+                    <include name="test_Delete_Non_Exist_Account"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
