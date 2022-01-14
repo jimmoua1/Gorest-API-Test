@@ -12,7 +12,7 @@ public class BaseTest {
     public void setUp(){
         RestAssured.baseURI = "https://gorest.co.in/public/v1/";
         RestAssured.requestSpecification = given()
-                .header("Authorization", "Bearer token_here")
+                .header("Authorization", "Bearer <token_here>")
                 .header("Content-Type", "application/json")
                 .log().all();
         RestAssured.responseSpecification = new ResponseSpecBuilder()
